@@ -1,0 +1,101 @@
+<html>
+    <head>
+
+        <link href="jmp1_fsdpcss.css" rel="stylesheet">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <meta name="viewport" content="width=device-width,intial-scale=1" />
+
+    </head>
+    <body>
+        <div class="maindiv">
+
+            <div class="headmenubar">
+                <div class="logo">
+                    <div class="divimg"><div class="rotate"style="position: absolute;"></div><h5>61</h5></div>
+                    <div class="divname">HB Logics</div>
+                </div>
+                <div class="link">
+                    <div class="div">
+                        <a href="#divhome" class="divlink" style="width:80px;">Home</a>
+                        <a href="#" class="divlink1" style="width:140px;" onclick="linkdisplayfun()">Languages <i class="fa-right">></i>
+                        </a>
+                        <div class="divlink3" id="divtl">
+                        <a href="#divlang" class="divlink4" >Python</a>
+                        <a href="#divlang" class="divlink4" >Html & Css</a>
+                        <a href="#divlang" class="divlink4" >Java Script</a>
+                        </div>
+                        <a href="#divlogin" class="divlink2">LOGIN</a>
+                    </div>
+                    <div class="menu" id="id-menu" onclick="menulinklistfun()">
+                        <i class="menu-icon">|||</i>
+                    </div>
+                </div>
+            </div>
+            <div class="list-sm">
+                <a href="#divhome" id="home" class="divlink" style="width:50px;">Home</a>
+                        <a href="#" id="dlink1" class="divlink1" style="width:110px;" onclick="linkdisplayfunsmall()">Languages
+                        </a>
+                        <div class="divlink3" id="divtl1">
+                        <a href="#divlang" class="divlink4" >Python</a>
+                        <a href="#divlang" class="divlink4" >Html & Css</a>
+                        <a href="#divlang" class="divlink4" >Java Script</a>
+                        </div>
+                        <a href="#divlogin" id="login" class="divlink2">LOGIN</a>
+            </div>
+            <div class="container-div">
+                
+                <div class="home-div" id="divhome" onclick="closemenu()">
+
+                    <div class="header">
+                        <div class="jmp-prev fa-right">></div>
+                        <div class="jmp-dropdown">
+                            <select class="jmp-dropselect">
+                                <option>Home</option>
+                                <option>jmp1</option>
+                                <option>jmp1</option>
+                                <option>jmp1</option>
+                                <option>jmp1</option>
+                            </select>
+                        </div>
+                        <div class="jmp-next fa-right">></div>
+                    </div>
+                    <div class="divcontent"></div>
+
+                </div>
+
+                <div class="lang-div" id="divlang" onclick="closemenu()">
+
+                    <div class="header">
+                        <div class="jmp-prev fa-right">></div>
+                        <div class="jmp-dropdown">
+                            <select class="jmp-dropselect">
+                                <option>Languages</option>
+                                <option>jmp1</option>
+                                <option>jmp1</option>
+                                <option>jmp1</option>
+                                <option>jmp1</option>
+                            </select>
+                        </div>
+                        <div class="jmp-next fa-right">></div>
+                    </div>
+                    <div class="divcontent1">jk</div>
+                    
+                </div>
+
+                <div class="login-div" id="divlogin" onclick="closemenu()">
+
+                    <div class="header">
+                        Login
+                    </div>
+                    <div class="divcontent2"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+        `
+        <script src="jmp1_fsdpjs.js"></script>
+    </body>
+</html>
